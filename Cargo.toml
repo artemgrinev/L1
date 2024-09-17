@@ -1,6 +1,7 @@
 bin = [
     { name = "l1_1", path = "src/main.rs" },
     { name = "l1_2", path = "src/l1_2.rs" },
+    { name = "l1_3", path = "src/l1_3.rs" },
   ]
 
 [package]
