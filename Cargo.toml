@@ -1,0 +1,13 @@
+bin = [
+    { name = "l1_1", path = "src/main.rs" },
+    { name = "l1_2", path = "src/l1_2.rs" },
+  ]
+
+[package]
+name = "L1"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[dependencies]
