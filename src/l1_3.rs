@@ -1,20 +1,3 @@
-// use std::sync::mpsc;
-// use std::thread;
-
-// fn main() {
-//     let (tx, rx) = mpsc::channel();
-//     let n: i32 = 10;
-//     let nums: Vec<i32> = (1..=n).collect();
-
-//     thread::spawn(move || {
-//         thread_tx = tx.clone();
-//         let sum = nums.iter().map(|x| x * x).sum::<i32>();
-//         thread_tx.send(sum).unwrap_or_default();
-//     });
-
-//     let result = rx.iter().sum::<i32>();
-//     println!("Сумма квадратов чисел в масиве 1..{} равна {}", n, result);
-// }
 use std::sync::mpsc;
 use std::thread;
 
